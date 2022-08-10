@@ -60,11 +60,6 @@ body{
 	flex: 58%;
 }
 
-@media (max-width: 800px) {
-	.col-div-8, .col-div-4 {
-		flex: 100%;
-	}
-}
 .line{
 	border-left: 1px solid #c7c7c7;
 	height: 1250px;
@@ -92,4 +87,11 @@ body{
 .p4{
 	font-size: 14px;
 	color: #c7c7c7;
+}
+
+/***** media queries ******/
+@media (max-width: 800px) {
+	.col-div-8, .col-div-4 {
+		flex: 100%;
+	}
 }
